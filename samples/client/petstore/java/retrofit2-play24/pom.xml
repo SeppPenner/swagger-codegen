@@ -275,7 +275,7 @@
         <swagger-core-version>1.5.18</swagger-core-version>
                 <jackson-version>2.10.0</jackson-version>
                 <play-version>2.4.11</play-version>
-        <retrofit-version>2.3.0</retrofit-version>
+        <retrofit-version>2.7.0</retrofit-version>
         <oltu-version>1.0.1</oltu-version>
         <junit-version>4.12</junit-version>
     </properties>
