@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - express > accepts > mime:
+        patched: '2020-03-15T22:33:25.518Z'
+    - express > type-is > mime:
+        patched: '2020-03-15T22:33:25.518Z'
+  'npm:negotiator:20160616':
+    - express > accepts > negotiator:
+        patched: '2020-03-15T22:33:25.518Z'
